@@ -1,0 +1,12 @@
+
+public class MyDate {
+	int day;
+	int year;
+	int month;
+	
+	public MyDate() {
+		
+	}
+	
+
+}

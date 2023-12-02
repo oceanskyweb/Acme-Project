@@ -1,0 +1,32 @@
+
+public class MyDate {
+	int day;
+	int month;
+	int year;
+	
+	public MyDate() {
+		
+	}
+	
+	public MyDate(int m, int d, int y) {
+		//TODO ...use the parameters of m, d, y to set the three fields
+		this.day = d;
+		this.month = m;
+		this.year = y;
+		
+	}
+	
+	public String toString() {
+		
+		return month + "/" + day + "/" + year;
+	}
+	
+	public void setDate(int m, int d, int y) {
+		//TODO set the MyDate attributes with m,d, and y values here
+		this.month = m;
+		this.day = d;
+		this.year = y;
+	}
+	
+
+}
