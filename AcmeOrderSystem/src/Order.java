@@ -1,3 +1,8 @@
+/**
+ * Create an order that is able to print out price and tax totals.
+ * 
+ * @OceanSkyWeb
+ */
 public class Order {
 	MyDate orderDate;
 	double orderAmount = 0.00;
@@ -10,6 +15,14 @@ public class Order {
 		taxRate = 0.05;
 	}
 	
+	/**
+	 * Constructor that assigns parameters to instantiated object
+	 * @param d Date
+	 * @param amt Order Amount
+	 * @param c Customer
+	 * @param p Product
+	 * @param q Quantity
+	 */
 	public Order(MyDate d, double amt, String c, String p, int q){
 		orderDate=d;
 		orderAmount=amt;
